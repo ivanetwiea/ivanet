@@ -82,18 +82,26 @@ WSGI_APPLICATION = 'ivanet.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'ivanet',
+#         'USER': 'root',
+#         'PASSWORD': 'asdfg12345.*/',
+#         'HOST': 'localhost',
+#         'PORT': 3306,
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ivanet',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'asdfg12345.*/',
-        'HOST': 'localhost',
-        'PORT': 3306,
+        'PASSWORD': 'p1FVYkzWCgOx0g6LKDyC',
+        'HOST': 'containers-us-west-36.railway.app',
+        'PORT': 6149,
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
